@@ -41,7 +41,7 @@ section {
 }
 
 .home-section {
-    background: #16213e;
+    background: #16213e; /* Dark blue */
     color: #fff;
     padding: 100px 20px;
 }
@@ -57,7 +57,22 @@ section {
     color: #8973f9; /* Change this color to your preferred color */
 }
 
-.about-section, .skills-section, .projects-section, .contact-section {
+.about-section {
+    background: #d0e1f9; /* Light blue */
+    border-bottom: 1px solid #eee;
+}
+
+.skills-section {
+    background: #b3cde0; /* Light blue */
+    border-bottom: 1px solid #eee;
+}
+
+.projects-section {
+    background: #a8d0e6; /* Light blue */
+    border-bottom: 1px solid #eee;
+}
+
+.contact-section {
     background: #fff;
     border-bottom: 1px solid #eee;
 }
